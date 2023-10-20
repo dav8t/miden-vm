@@ -4,6 +4,7 @@
 
 #### Assembly
 - Expanded capabilities of the `debug` decorator. Added `debug.mem` and `debug.local` variations.
+- All `checked` versions of the u32 instructions were removed. All `unchecked` versions were renamed: this mode specification was removed from their titles.
 
 #### Stdlib
 - Introduced `std::utils` module with `is_empty_word` procedure.  Refactored `std::collections::smt` 
